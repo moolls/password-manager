@@ -32,14 +32,3 @@ dotnet run set client.json server.json Gmail
 dotnet run get client.json server.json
 dotnet run delete client.json server.json Gmail
 ```
-
-###  Struktur
-
-```plaintext
-Passwordmanager/
-│
-├── Program.cs               # Innehåller logiken för alla kommandon
-├── Kryptering.cs           # Krypteringsmetoder (AES)
-├── Passwordfiler.csproj    # Projektfil
-└── bin/ & obj/             # Kompilerade filer (ingår ej i Git)
-```
